@@ -1,0 +1,1457 @@
+@import url('https://fonts.googleapis.com/css2?family=Paprika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Chivo:wght@300&family=Crete+Round:ital@0;1&family=Delius+Swash+Caps&family=Lora:wght@500&family=Montserrat:wght@300&family=Orienta&family=Paprika&family=Quicksand:wght@400;500&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Chivo:wght@300&family=Crete+Round:ital@0;1&family=Delius+Swash+Caps&family=Lora:wght@500&family=Montserrat:wght@300&family=Orienta&family=Paprika&family=Quicksand:wght@400;500&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Paprika&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Chivo:wght@300&family=Crete+Round:ital@0;1&family=Delius+Swash+Caps&family=Lora:wght@500&family=Montserrat:wght@300&family=Orienta&family=Paprika&family=Quicksand:wght@400;500&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&family=Crete+Round:ital@0;1&family=Delius+Swash+Caps&family=Lora:wght@500&family=Montserrat:wght@300&family=Orienta&family=Paprika&family=Quicksand:wght@400;500&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Chivo:wght@300&family=Crete+Round:ital@0;1&family=Delius+Swash+Caps&family=Lora:wght@500&family=Montserrat:wght@300&family=Orienta&family=Paprika&family=Quicksand:wght@400;500&family=Slabo+27px&display=swap');
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: rgba(228, 229, 225, 1);
+}
+html,
+body,
+main {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+main {
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: heading;
+  src: url(https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap);
+}
+
+/* css for header and footer  starts*/
+
+/* css for header starts */
+
+.aksargyan_main_navbar {
+  background-color: rgba(65, 185, 77, 0.88);
+  /* border-radius: 12px; */
+  width: 100%;
+  height: 110px;
+  display: flex;
+  /* align-items: center;
+  justify-content: center; */
+}
+.aksargyan_logo {
+  display: flex;
+}
+
+.aksargyan_logo_image {
+  width: 80px;
+  height: 140px;
+  background-image: url('./images/logo.png');
+  background-position: center center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  justify-self: right;
+  /* margin: auto; */
+  padding: 5ps;
+  margin-left: 10px;
+  /* align-items: center;
+  justify-content: center; */
+}
+.jss_header_logo {
+  background-image: url('images/jss_logo.png');
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+  /* width: 80px; */
+}
+/* height: 130px; */
+/* margin-top: 10px;
+  margin-left: 10px;
+
+*/
+
+.aksargyan_nav_container {
+  display: flex;
+  /* position: fixed; */
+
+  justify-content: flex-end;
+  /* justify-content: space-evenly; */
+  /* flex-direction: row-reverse; */
+  position: relative;
+  margin-left: auto;
+
+  /* background-color: bisque; */
+}
+
+.navbar-nav {
+  display: flex;
+}
+
+.aksargyan_nav_btn {
+  font-size: 17px;
+  border: 0px solid transparent;
+  padding: 0.25rem 0.7rem;
+  margin-top: 30px;
+}
+
+.aksargyan_nav_btn:hover {
+  /* color: rgba(0, 65, 93, 1); */
+  background-color: black;
+  transition: 0.3s;
+  /* border: 1px rgba(0, 65, 93, 1) solid; */
+}
+
+.aksargyan_nav_item {
+  font-weight: normal;
+  font-size: 18px;
+  /* margin-bottom: 20px; */
+
+  /* margin-top: 30px; */
+  align-self: baseline;
+  margin-top: 30px;
+}
+.nav_link {
+  color: rgba(0, 65, 93, 1);
+}
+
+.aksargyan_nav_item_link {
+  color: rgba(0, 65, 93, 1);
+  text-decoration: none;
+
+  margin: 20px;
+
+  text-align: bottom;
+  font-family: Crete Round;
+
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+}
+
+.aksargyan_nav_item_link:hover {
+  text-decoration: none;
+  text-decoration-color: black;
+  color: rgba(228, 229, 225, 1);
+  font-family: heading;
+}
+
+.aksargyan_nav_btn {
+  background-color: rgba(0, 65, 93, 1);
+  color: white;
+  border-radius: 8px;
+  font-size: 20px;
+  font-family: 'Roboto Slab', serif;
+  margin-bottom: 20px;
+}
+
+.aksargyan_pages_drop {
+  border-radius: 7px;
+  background-color: rgba(0, 68, 98, 1);
+
+  box-shadow: -1px -1px 3px 0px rgba(0, 59, 84, 0.9);
+
+  box-shadow: 1px 1px 2px 0px rgba(0, 72, 102, 0.9);
+
+  box-shadow: -1px 1px 2px 0px rgba(0, 59, 84, 0.2);
+
+  box-shadow: 1px -1px 2px 0px rgba(0, 59, 84, 0.2);
+
+  box-shadow: 1px 1px 2px 0px rgba(0, 59, 84, 0.5) inset;
+
+  box-shadow: -1px -1px 2px 0px rgba(0, 72, 102, 0.3) inset;
+}
+
+.aksargyan_pages_option {
+  font-family: heading;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+}
+.aksargyan_contact_handels_holder {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.aksargyan_header_links_conatiner {
+  height: 0.01px;
+  /* width: 100px; */
+  /* background-color: red; */
+  /* padding-top: 20px; */
+  display: flex;
+  /* margin-right: auto; */
+  /* flex-wrap: wrap; */
+  /* margin-bottom: 30px; */
+  position: relative;
+  /* margin-top: 100px; */
+  z-index: 500;
+  /* justify-content: space-between; */
+  /* align-content: center; */
+}
+
+.aksargyan_header_links_conatiner img {
+  margin: 10px;
+  width: 30px;
+  height: 30px;
+}
+#header_responsive_logo {
+  display: none;
+  height: 95px;
+}
+@media screen and (max-width: 991px) {
+  .aksargyan_nav_container {
+    background-color: rgba(228, 229, 225, 1);
+    display: block;
+    /* width: 441px; */
+  }
+  .aksargyan_logo_image {
+    background-position: top center;
+  }
+
+  .hhh {
+    margin-right: auto;
+    margin-left: -30px;
+    display: block;
+  }
+
+  .aksargyan_nav_item_conatiner {
+    background-color: rgba(228, 229, 225, 1);
+    z-index: 2;
+  }
+
+  .aksargyan_nav_item_link:hover {
+    color: rgba(0, 0, 0, 1);
+  }
+
+  #header_responsive_logo {
+    display: block;
+    /* margin-top: -10px; */
+  }
+  .jss_header_logo {
+    display: none;
+    height: 0px;
+    width: 0px;
+  }
+}
+
+/* csss  for header endss */
+.aksargyan_contact_handels_holder {
+  width: 100%;
+}
+/* footer css starts */
+
+.aksargyan_footer_container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgba(0, 0, 0, 0.9);
+  justify-content: center;
+  align-items: center;
+}
+
+.aksargyan_footer_links_conatiner {
+  width: 60%;
+  height: 250px;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.aksargyan_footer_item {
+  height: 250px;
+
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+
+  align-items: center;
+  /* margin-left: 10px; */
+}
+.aksargyan_footer_item_one {
+  width: 33%;
+
+  display: flex;
+
+  /* text-align: top; */
+}
+.aksargyan_footer_item_one:last-child {
+  margin-bottom: auto;
+}
+.aksargyan_footer_logo {
+  display: inline-flex;
+  /* display:block; */
+  justify-content: center;
+  align-items: center;
+  /* flex-wrap: wrap; */
+}
+
+.aksargyan_footer_logo img {
+  /* border: 1px solid white; */
+  border-radius: 5px;
+  /* width: 35px; */
+}
+#aksargyan_logo_image img {
+  width: 140px;
+  height: 140px;
+}
+
+.aksargyan_footer_logo h2 {
+  color: white;
+  margin-left: 10px;
+}
+
+.aksargyan_footer_logo h4 {
+  font-size: 20px;
+  color: white;
+  margin-left: 10px;
+}
+
+.aksargyan_footer_item a {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 34px;
+  letter-spacing: 0em;
+  text-align: left;
+  /* margin-left: 20px; */
+  text-decoration: none;
+  color: white;
+}
+
+.aksargyan_footer_logo_one {
+  display: block;
+  /* align-items: center; */
+  margin-left: center;
+  justify-content: center;
+  /* margin-top: ; */
+  /* width: 187px; */
+  /* height: 150px; */
+}
+
+.aksargyan_footer_logo_one h2 {
+  text-align: center;
+  margin-left: 0px;
+}
+.aksargyan_footer_logo span {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 800px) {
+  .aksargyan_footer_item {
+    /* width: 260px; */
+    height: 150px;
+    /* height: 250px; */
+  }
+
+  .aksargyan_footer_item {
+    justify-content: center;
+  }
+
+  .aksargyan_footer_logo img {
+    /* margin-left: 10px; */
+    width: 30px;
+    height: 30px;
+  }
+  .aksargyan_footer_logo h4 {
+    color: white;
+    margin-left: 10px;
+    display: none;
+  }
+
+  .aksargyan_footer_logo span {
+    display: none;
+  }
+  #aksargyan_logo_image img {
+    height: 70px;
+    width: 70px;
+  }
+}
+
+/* css for going up btn starts*/
+.aksargyan_going_up_btn {
+  width: 100%;
+  /* height: 50px; */
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+#scrollToTopBtn {
+  background-color: none;
+  border: none;
+  width: 35px;
+  height: 35px;
+  /* color: white; */
+  cursor: pointer;
+  /* font-size: 18px;
+  line-height: 48px;
+  width: 48px; */
+}
+
+/* css for goin up btn ends */
+
+/* css for header and footer ends */
+
+/* css for intro image */
+
+.aksargyan_crousel_images {
+  z-index: 100;
+  height: 700px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: repeat-x;
+  /* background-position: center bottom; */
+  /* background-repeat: no-repeat; */
+}
+
+.aksargyan_crousel_images_hover {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(122, 209, 242, 0.18);
+  display: block;
+  align-items: flex-end;
+  align-content: space-between;
+}
+
+.aksargyan_crousel_text {
+  height: 57%;
+  /* font-size: 50px; */
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 10%;
+  color: rgba(0, 0, 0, 1);
+  font-family: Round;
+  /* font-style: ; */
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 101px;
+  /* Line height: 100% */
+  padding-left: auto;
+  /* padding-right: auto;
+  padding-bottom: none; */
+  /* background-color: red; */
+  top: 0px;
+  /* text-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 1); */
+  text-shadow: 2px 4px 13px 0px rgba(0, 0, 0, 0.25);
+}
+
+.aksargyan_crousel_text pre {
+  font-family: Crete Round;
+  font-size: 57px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-right: 40px;
+}
+@media screen and (max-width: 767px) {
+  .aksargyan_crousel_text pre {
+    font-size: 30px;
+  }
+}
+
+.aksargyan_crousel_btn_bar {
+  height: 23%;
+  /* background-color: black; */
+  top: 0px;
+}
+
+.aksargyan_crousel_images_bottom {
+  height: 20%;
+  bottom: 0px;
+  width: 100%;
+  background-position: bottom;
+  align-self: bottom;
+  /* background-size: cover; */
+
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* position: relative; */
+  background-image: url('images/Group_39.png');
+  /* margin-top: 600px; */
+}
+
+@media screen and (min-width: 1380px) {
+  .aksargyan_crousel_images_bottom {
+    background-size: cover;
+  }
+}
+
+.aksargyan_crousel_btn_bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+  padding-right: 4%;
+  flex-wrap: wrap;
+  padding-top: 5%;
+}
+
+.aksargyan_crousel_quote {
+  width: 100%;
+  border-radius: 60px;
+  color: rgba(228, 229, 225, 1);
+
+  max-width: 808px;
+  background-color: rgba(245, 114, 114, 1);
+  height: auto;
+  max-height: 60px;
+  padding: 10px;
+  font-display: center;
+  /* display: flex; */
+  align-items: center;
+  justify-content: center;
+  position: center;
+  box-shadow: inset 3px 3px 3px 0px rgba(0, 0, 0, 0.25);
+  font-family: 'Roboto Slab', serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) and (min-width: 557px) {
+  .aksargyan_crousel_quote {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 557px) {
+  .aksargyan_crousel_quote {
+    font-size: 10px;
+  }
+}
+
+.aksargyan_crousel_donate_btn {
+  /* width: 100px; */
+  height: 50px;
+  border-radius: 16px;
+  /* background-color: aqua; */
+  padding: 10px;
+  background-color: rgba(237, 78, 78, 1);
+  color: rgba(228, 229, 225, 1);
+  border: 0px;
+  /* margin-top: 10px; */
+  /* font-weight: bold; */
+  font-family: 'Roboto Slab', serif;
+  box-shadow: inset 5px 5px 5px 0px rgba(0, 0, 0, 0.25);
+  margin-right: 100px;
+  /* box-shadow: ; */
+  /* z-index: 2; */
+}
+.aksargyan_crousel_text_back {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 49px;
+  color: black;
+}
+.aksargyan_crousel_donate_btn:hover {
+  /* box-shadow: inset 0px 7px 10px 7px rgba(0, 0, 0, 0.25);
+   */
+  background-color: rgba(234, 40, 40, 1);
+}
+
+@media screen and (max-width: 660px) {
+  .aksargyan_crousel_images {
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .aksargyan_crousel_text {
+    font-size: 30px;
+  }
+}
+
+/* css for intro home ends */
+
+/* css for working tomm starts*/
+.aksargyan_intro_container {
+  height: auto;
+  margin-bottom: 50px;
+}
+/* background-color: red; */
+
+.aksargyan_intro_container h1 {
+  margin-left: 50px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 58px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 74px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .aksargyan_intro_container h1 {
+    margin-left: 0px;
+    /* display: inline-flex;
+    justify-content: left; */
+    text-align: center;
+  }
+}
+
+/* css for working tomm ends*/
+
+/* css for activites starts */
+
+.aksargyan_activites_container {
+  background-color: rgba(122, 209, 242, 0.56);
+}
+
+.aksargyan_activites_container h1 {
+  margin-top: 50px;
+  margin-left: 50px;
+  font-family: 'Roboto Slab', serif;
+  font-size: 58px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 124px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.aksargyan_activites_item {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.aksargyan_activites_item img {
+  width: 40%;
+  margin-bottom: 20px;
+}
+.aksargyan_activites_des {
+  width: 40%;
+  padding-top: 20px;
+  /* line-height:25px ; */
+}
+#myBtn {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .aksargyan_activites_container h1 {
+    font-size: 35px;
+    /* line-height: 25px; */
+    /* line-height: 10px; */
+    line-height: 45px;
+    padding-top: 30px;
+    text-align: center;
+    margin-left: 0px;
+  }
+
+  .aksargyan_intro_container h1 {
+    font-size: 35px;
+    /* line-height: 25px; */
+    /* line-height: 10px; */
+    line-height: 45px;
+    padding-top: 30px;
+  }
+
+  .aksargyan_activites_item {
+    flex-direction: column-reverse;
+  }
+
+  .odd {
+    flex-direction: column;
+  }
+
+  .read_more_text {
+    display: none;
+  }
+  #myBtn {
+    display: block;
+  }
+}
+@media screen and (max-width: 550px) {
+  .aksargyan_activites_des {
+    width: 90%;
+  }
+
+  .aksargyan_activites_item img {
+    width: 90%;
+  }
+
+  #more {
+    display: none;
+  }
+
+  .read_more_text {
+    display: flex;
+  }
+}
+
+/* css for activites eends */
+
+/* css for quote starts */
+
+.aksargyan_quote_conatiner {
+  width: 100%;
+  /* height: 100px; */
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-family: Delius Swash Caps;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 58px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 50px;
+  color: rgba(0, 0, 0, 1);
+}
+
+/* css for quote ends*/
+
+/* css for crousel team starts */
+
+#carousel {
+  position: relative;
+  height: 800px;
+  /* top: 50%; */
+  /* transform: translateY(-50%); */
+  overflow: hidden;
+  background-color: rgba(85, 190, 95, 0.6);
+  /* display: flex;
+  align-items: center; */
+}
+#carousel h6 {
+  margin-left: 55px;
+  margin-top: 55px;
+  font-family: Acme;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+#carousel div {
+  /* height: 700px; */
+  /* width: 300px; */
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  position: absolute;
+  transition: transform 1s, left 1s, opacity 1s, z-index 0s;
+  opacity: 1;
+  display: block;
+}
+
+/* ,*/
+#carousel div .aksargyan_crousel_image_person {
+  width: 300px;
+  height: 350px;
+  transition: width 1s;
+}
+
+#carousel div.hideLeft {
+  left: 0%;
+  opacity: 0;
+  transform: translateY(50px) translateX(-50%);
+  /* position: relative; */
+  text-align: center;
+  color: white;
+}
+#carousel div.hideLeft .aksargyan_crousel_image_person {
+  width: 100px;
+}
+
+#carousel div.hideRight {
+  left: 100%;
+  opacity: 0;
+  transform: translateY(50px) translateX(-50%);
+}
+#carousel div.hideRight .aksargyan_crousel_image_person {
+  width: 300px;
+}
+#carousel div.prev {
+  z-index: 5;
+  left: 30%;
+  transform: translateY(100px) translateX(-50%);
+}
+#carousel div.prev .aksargyan_crousel_image_person {
+  height: 260px;
+  width: 250px;
+  box-shadow: 11px 11px 10px 0px rgba(0, 0, 0, 0.25);
+}
+#carousel div.prevLeftSecond {
+  z-index: 4;
+  left: 20%;
+  transform: translateY(150px) translateX(-50%);
+
+  opacity: 0.7;
+}
+#carousel div.prevLeftSecond .aksargyan_crousel_image_person {
+  height: 150px;
+  width: 200px;
+  box-shadow: 11px 11px 10px 0px rgba(0, 0, 0, 0.25);
+}
+#carousel div.selected {
+  z-index: 10;
+  left: 50%;
+  transform: translateY(50px) translateX(-50%);
+}
+
+#carousel div.selected .aksargyan_crousel_image_person {
+  height: 350px;
+  border-top: 40px outset white;
+  /* border-bottom: 70px inset white; */
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  /* border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px; */
+  border-left: 0px;
+  border-right: 0px;
+  box-shadow: 11px 11px 10px 0px rgba(0, 0, 0, 0.25);
+}
+#carousel div.next {
+  z-index: 5;
+  left: 65%;
+  transform: translateY(100px) translateX(-50%);
+}
+#carousel div.next .aksargyan_crousel_image_person {
+  height: 260px;
+  width: 300px;
+  box-shadow: 11px 11px 10px 0px rgba(0, 0, 0, 0.25);
+}
+#carousel div.nextRightSecond {
+  z-index: 4;
+  left: 78%;
+  transform: translateY(150px) translateX(-50%);
+
+  opacity: 0.7;
+}
+#carousel div.nextRightSecond .aksargyan_crousel_image_person {
+  height: 150px;
+  width: 200px;
+  box-shadow: 11px 11px 10px 0px rgba(0, 0, 0, 0.25);
+}
+
+#carousel div div {
+  width: 100%;
+  height: 250px;
+  background-color: black;
+  display: none;
+  /* cursor: not-allowed; */
+}
+
+#carousel div div.crousel_handels {
+  width: 100%;
+  height: 70px;
+
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#carousel div.selected div.crousel_info {
+  margin-top: 70px;
+  width: 120%;
+  height: 1px;
+  /* background-color: red; */
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#carousel div.selected div.crousel_handels {
+  display: flex;
+  background-color: white;
+  justify-content: space-around;
+  box-shadow: 11px 11px 10px 0px rgba(0, 0, 0, 0.25);
+  align-items: center;
+}
+#carousel div.selected div {
+  display: flex;
+  background-color: transparent;
+}
+#crousel div div {
+  display: flex;
+}
+#carousel div.selected div.crousel_handels img {
+  height: 32px;
+  border: 0px;
+  width: 35px;
+  box-shadow: none;
+}
+.crousel_info h2 {
+  left: auto;
+  margin-top: 5px;
+  font-family: Bookman Old Style;
+  font-size: 33px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 39px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+.crousel_info h3 {
+  float: center;
+  font-family: Montserrat;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 33px;
+  letter-spacing: 0.03em;
+  text-align: left;
+
+  font-family: Montserrat;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 33px;
+  letter-spacing: 0.03em;
+  text-align: left;
+
+  font-family: Bookman Old Style;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.crousel_info h3 p {
+  text-align: center;
+  text-justify: center;
+}
+.space {
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+.aksargyan_see_all_btn {
+  text-decoration: none;
+  border: none;
+  margin-bottom: 30px;
+  height: 50px;
+  width: 140px;
+  background-color: rgba(220, 70, 60, 1);
+  color: white;
+  border-radius: 15px;
+  box-shadow: -5px 5px 13px 0px rgba(48, 154, 203, 0.9) inset;
+
+  box-shadow: 5px -5px 10px 0px rgba(58, 188, 248, 0.9) inset;
+
+  box-shadow: -5px -5px 10px 0px rgba(48, 154, 203, 0.2) inset;
+
+  box-shadow: 5px 5px 10px 0px rgba(48, 154, 203, 0.2) inset;
+
+  box-shadow: 1px -1px 2px 0px rgba(48, 154, 203, 0.5);
+
+  box-shadow: -1px 1px 2px 0px rgba(58, 188, 248, 0.3);
+  font-family: Chivo;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 43px;
+  letter-spacing: 0em;
+  text-align: center;
+  z-index: 600;
+}
+@media screen and (max-width: 4x) {
+  #crousel {
+    height: 500px;
+  }
+  #carousel div img {
+    width: 250px;
+    height: 270px;
+  }
+  #carousel div.prevLeftSecond {
+    left: -50%;
+  }
+  #carousel div.prev {
+    left: -30%;
+  }
+
+  #carousel div.next {
+    left: 140%;
+  }
+  #carousel div.nextRightSecond {
+    left: 170%;
+  }
+  #carousel h6 {
+    font-size: 45px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+  }
+  .aksargyan_see_all_btn {
+    margin-top: -20px;
+    z-index: 200;
+  }
+}
+
+/* css for crousel team ends*/
+
+/* css for our team and alumni main content starts */
+
+.Our_team_heading {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-family: Acme;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 101px;
+  letter-spacing: 0.03em;
+  text-align: center;
+
+  /* text-align: left; */
+}
+
+.our_team_about {
+  margin: 100px 0px 100px 0px;
+}
+
+.our_team_about p {
+  text-align: center;
+  font-family: Delius Swash Caps;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 38px;
+  letter-spacing: 0.005em;
+  /* text-align: left; */
+}
+.our_team_fulll {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.our_team_row_div {
+  margin: 0 -10px;
+}
+.our_team_row_div label {
+  height: 56px;
+  background-color: rgba(53, 171, 225, 0.7);
+  padding: 10px;
+  height: 57px;
+  width: 187px;
+
+  border-radius: 6px;
+
+  border-radius: nullpx;
+  font-family: Crete Round;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 47px;
+  letter-spacing: 0em;
+  /* text-align: left; */
+  text-align: center;
+  text-justify: center;
+}
+.our_team_row_div_inner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.our_team_row_div img {
+  max-width: 100%;
+}
+
+.our_team_indi {
+  width: calc(33.33% - 20px);
+  margin: 0 10px;
+  min-width: 250px;
+  min-height: 250px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+}
+
+.our_team_indi img {
+  box-shadow: -8px 10px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.our_team_indi h2 {
+  /* height: 60px; */
+  font-family: Paprika;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  /* line-height: 100px; */
+  letter-spacing: 0.03em;
+  text-align: center;
+  align-self: center;
+  margin-top: 20px;
+}
+
+.our_team_indi div {
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  font-family: Orienta;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+
+.our_team_indi div p {
+  margin-left: center;
+  /* height: px; */
+}
+
+.our_teams_indi_links_conatainer {
+  width: 100%;
+  height: 50px;
+}
+.our_teams_indi_links_conatainer a {
+  /* margin-top: -30px; */
+  margin-left: 15px;
+  margin-right: 15px;
+
+  /* align-content: center; */
+  /* justify-content: space-between; */
+}
+
+.our_teams_indi_links_conatainer a img {
+  box-shadow: none;
+}
+
+/* css for our team and alumni main content ends */
+
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+/* css for contact us starts */
+
+.contact_us_main_container {
+  /* height: 800px; */
+  /* background-color: red; */
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  /* margin-left: 20px; */
+
+  /* width: 80%; */
+  /* margin-right: 20px; */
+}
+
+.contact_us_main_container a {
+  height: 315px;
+  width: 450px;
+  /* left: 157px;
+top: 467px; */
+  border-radius: 0px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.contact_us_item {
+  height: 100%;
+  width: 100%;
+  /* left: 131px; */
+  /* top: 467px; */
+  border-radius: 0px;
+
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+  align-items: center;
+}
+
+.contact_us_odd {
+  background-color: rgba(0, 0, 0, 0.85);
+  box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.25);
+
+  box-shadow: 8px 8px 15px 0px rgba(255, 255, 255, 0.25) inset;
+}
+
+.contact_us_odd div h2 {
+  margin-bottom: 50px;
+  font-family: Crete Round;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: white;
+  text-align: center;
+  /* text-justify: center; */
+}
+
+.contact_us_odd div h4 {
+  margin-top: 55px;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: -0.01em;
+  /* text-align: left; */
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  text-decoration: none transparent;
+  /* text-decoration: ; */
+}
+
+.contact_us_even div h2 {
+  margin-bottom: 50px;
+  font-family: Crete Round;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45px;
+  letter-spacing: 0em;
+  text-align: left;
+  /* color: white; */
+  text-align: center;
+  color: rgba(0, 0, 0, 1);
+}
+
+.contact_us_even div h4 {
+  color: rgba(0, 0, 0, 1);
+  margin-top: 55px;
+  font-family: Montserrat;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 37px;
+  letter-spacing: -0.01em;
+  /* text-align: left; */
+  /* color: white; */
+  text-align: center;
+  text-decoration: none;
+  text-decoration: none transparent;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.contact_us_even {
+  background: rgba(255, 255, 255, 0.87);
+  box-shadow: 10px 10px 16px 0px rgba(255, 255, 255, 0.25);
+
+  box-shadow: 8px 8px 15px 0px rgba(0, 0, 0, 0.25) inset;
+}
+
+@media screen and (max-width: 600px) {
+  .contact_us_main_container a {
+    margin-left: 2.5%;
+    width: 95%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .contact_us_div_color_change_one {
+    background-color: rgba(0, 0, 0, 0.85);
+    box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.25);
+
+    box-shadow: 8px 8px 15px 0px rgba(255, 255, 255, 0.25) inset;
+  }
+
+  .contact_us_div_color_change_one div h2 {
+    color: white;
+  }
+
+  .contact_us_div_color_change_one div h4 {
+    color: white;
+  }
+
+  .contact_us_div_color_change_two div h2 {
+    color: black;
+  }
+
+  .contact_us_div_color_change_two div h4 {
+    color: black;
+  }
+  .contact_us_div_color_change_two {
+    background: rgba(255, 255, 255, 0.87);
+    box-shadow: 10px 10px 16px 0px rgba(255, 255, 255, 0.25);
+
+    box-shadow: 8px 8px 15px 0px rgba(0, 0, 0, 0.25) inset;
+  }
+}
+
+/* css for contact us ends */
+
+/*  */
+
+/* 
+
+/* 
+
+/* */
+
+/* css for blog starts */
+.aksargyan_blog_spacing {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+/* css for blog ends */
+
+/* css for about us starts */
+
+.aksargyan_main_content_container {
+  padding-top: 30px;
+  padding-bottom: 40px;
+}
+
+.aksargyan_about_us_image {
+  height: 530px;
+  /* background-color: red; */
+  background-image: url('images/about_pic-one.png');
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.aksargyan_about_us_text {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 25px;
+  /* height: 400px; */
+  /* background-color: black; */
+}
+/* css for about us ends */
+
+/* css for gallery starts */
+.aksargyan_images_container {
+  margin-left: 90px;
+  margin-right: 90px;
+  padding-bottom: 150px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+.column_one_two {
+  /* max-width: 25%; */
+  flex: 30%;
+  padding: 0 4px;
+}
+.column_two_one {
+  flex: 60%;
+  padding: 0 4px;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.column_one_two,
+.column_two_one img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+.column_two_one img {
+  align-self: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  /* -ms-flex: 25%; IE10 */
+  flex: 32%;
+  /* max-width: 25%; */
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .aksargyan_images_container {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding-bottom: 150px;
+  }
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+/* css for galley ends  */
+
+/* font for branch in our team section */
+.font {
+  font-family: Orienta;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0.03em;
+  text-align: left;
+}
+
+/* none class */
+
+.none_of_link {
+  display: none;
+}
